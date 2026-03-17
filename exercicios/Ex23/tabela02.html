@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -27,8 +28,22 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky; /* isso faz com que fique fixo o cabeçalho, tem que colocar no table (position: relative;) se não não da certo  */
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) /* odd(impar)   2n-1 */ {
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) /* even(par)   2n */ {
+            background-color: lightgray;
         }
 
         td.num {
@@ -125,6 +140,79 @@
                 <td>Rio Grande do Norte</td>
                 <td class="num" >3 506 853</td>
             </tr>
+             <tr>
+                <td>Maranhão</td>
+                <td class="num" >7 075 181</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num" >7 018 354</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num" >4 144 597</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num" >4 018 650</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num" >4 018 127</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num" >3 506 853</td>
+            </tr>
+             <tr>
+                <td>Maranhão</td>
+                <td class="num" >7 075 181</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num" >7 018 354</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num" >4 144 597</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num" >4 018 650</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num" >4 018 127</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num" >3 506 853</td>
+            </tr>
+             <tr>
+                <td>Maranhão</td>
+                <td class="num" >7 075 181</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num" >7 018 354</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num" >4 144 597</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num" >4 018 650</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num" >4 018 127</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num" >3 506 853</td>
+            </tr>
+            
 
         <tfoot>
             <tr>
@@ -133,5 +221,19 @@
             </tr>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis inventore ratione ipsam, eos molestiae alias esse veniam saepe facere illo! Non labore ad, blanditiis enim quidem recusandae beatae id! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit cum asperiores totam? Facere iure, incidunt fugit dignissimos cumque architecto nesciunt cupiditate ex ipsa obcaecati ducimus ipsam voluptatibus sapiente atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus magni assumenda atque pariatur dolorem officia recusandae saepe delectus voluptatem quaerat iste deserunt ipsa, nulla rem voluptatibus velit doloribus! Quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quam alias. Ea non magnam nam numquam repellendus nobis saepe beatae perspiciatis dolorum? Recusandae suscipit error expedita molestiae cum odit tempora!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis inventore ratione ipsam, eos molestiae alias esse veniam saepe facere illo! Non labore ad, blanditiis enim quidem recusandae beatae id! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit cum asperiores totam? Facere iure, incidunt fugit dignissimos cumque architecto nesciunt cupiditate ex ipsa obcaecati ducimus ipsam voluptatibus sapiente atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus magni assumenda atque pariatur dolorem officia recusandae saepe delectus voluptatem quaerat iste deserunt ipsa, nulla rem voluptatibus velit doloribus! Quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quam alias. Ea non magnam nam numquam repellendus nobis saepe beatae perspiciatis dolorum? Recusandae suscipit error expedita molestiae cum odit tempora!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis inventore ratione ipsam, eos molestiae alias esse veniam saepe facere illo! Non labore ad, blanditiis enim quidem recusandae beatae id! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit cum asperiores totam? Facere iure, incidunt fugit dignissimos cumque architecto nesciunt cupiditate ex ipsa obcaecati ducimus ipsam voluptatibus sapiente atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus magni assumenda atque pariatur dolorem officia recusandae saepe delectus voluptatem quaerat iste deserunt ipsa, nulla rem voluptatibus velit doloribus! Quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quam alias. Ea non magnam nam numquam repellendus nobis saepe beatae perspiciatis dolorum? Recusandae suscipit error expedita molestiae cum odit tempora!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis inventore ratione ipsam, eos molestiae alias esse veniam saepe facere illo! Non labore ad, blanditiis enim quidem recusandae beatae id! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit cum asperiores totam? Facere iure, incidunt fugit dignissimos cumque architecto nesciunt cupiditate ex ipsa obcaecati ducimus ipsam voluptatibus sapiente atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus magni assumenda atque pariatur dolorem officia recusandae saepe delectus voluptatem quaerat iste deserunt ipsa, nulla rem voluptatibus velit doloribus! Quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quam alias. Ea non magnam nam numquam repellendus nobis saepe beatae perspiciatis dolorum? Recusandae suscipit error expedita molestiae cum odit tempora!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis inventore ratione ipsam, eos molestiae alias esse veniam saepe facere illo! Non labore ad, blanditiis enim quidem recusandae beatae id! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit cum asperiores totam? Facere iure, incidunt fugit dignissimos cumque architecto nesciunt cupiditate ex ipsa obcaecati ducimus ipsam voluptatibus sapiente atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus magni assumenda atque pariatur dolorem officia recusandae saepe delectus voluptatem quaerat iste deserunt ipsa, nulla rem voluptatibus velit doloribus! Quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quam alias. Ea non magnam nam numquam repellendus nobis saepe beatae perspiciatis dolorum? Recusandae suscipit error expedita molestiae cum odit tempora!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis inventore ratione ipsam, eos molestiae alias esse veniam saepe facere illo! Non labore ad, blanditiis enim quidem recusandae beatae id! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit cum asperiores totam? Facere iure, incidunt fugit dignissimos cumque architecto nesciunt cupiditate ex ipsa obcaecati ducimus ipsam voluptatibus sapiente atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus magni assumenda atque pariatur dolorem officia recusandae saepe delectus voluptatem quaerat iste deserunt ipsa, nulla rem voluptatibus velit doloribus! Quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quam alias. Ea non magnam nam numquam repellendus nobis saepe beatae perspiciatis dolorum? Recusandae suscipit error expedita molestiae cum odit tempora!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis inventore ratione ipsam, eos molestiae alias esse veniam saepe facere illo! Non labore ad, blanditiis enim quidem recusandae beatae id! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit cum asperiores totam? Facere iure, incidunt fugit dignissimos cumque architecto nesciunt cupiditate ex ipsa obcaecati ducimus ipsam voluptatibus sapiente atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus magni assumenda atque pariatur dolorem officia recusandae saepe delectus voluptatem quaerat iste deserunt ipsa, nulla rem voluptatibus velit doloribus! Quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quam alias. Ea non magnam nam numquam repellendus nobis saepe beatae perspiciatis dolorum? Recusandae suscipit error expedita molestiae cum odit tempora!</p>
 </body>
 </html>
