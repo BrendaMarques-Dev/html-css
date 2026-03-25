@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+        img {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquam est sit a ex reiciendis, accusamus beatae consequatur at, ipsam asperiores odio sequi distinctio minima nobis cum unde repudiandae voluptate.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag01.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag02.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag03.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nam accusamus autem placeat quos officiis iusto aliquam vel cumque ut quidem perspiciatis dignissimos? Iusto est quis, esse commodi ducimus harum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem asperiores error, nam amet distinctio consectetur id explicabo debitis exercitationem eaque dignissimos aperiam, sit inventore, quos molestias repellat nostrum porro dolor.</p>
+
+    <iframe id="tela" name="frame" srcdoc=" <h1> Escolha uma das opções acima </h1> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt exercitationem consequuntur asperiores dignissimos quas adipisci, magnam id et, dolorem recusandae atque eius doloremque vero minus ad quasi, voluptatibus temporibus.</p> <img src='imagens/mascote.png'>" >
+        <p>Infelizmente seu naveador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim incidunt non, ab in, cum autem, voluptatibus numquam ipsa possimus harum optio quidem cumque! Assumenda, ullam alias. Praesentium fugiat neque rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore laudantium deleniti, unde quaerat architecto sapiente cumque alias voluptate corporis quam quia quasi totam rerum esse consequatur voluptates provident, dignissimos adipisci.</p>
+</body>
+</html>
