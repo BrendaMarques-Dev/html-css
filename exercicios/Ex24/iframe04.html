@@ -8,7 +8,8 @@
 <body>
     <h1>Meu site principal</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsum, recusandae autem possimus dicta dolor amet vitae ad a reprehenderit laborum nostrum dolorum officia eligendi explicabo velit voluptate, quod fugit.</p>
-    <iframe src="paginas-extras/pag04.html"sandbox="sandbox" referrerpolicy="no-referer-when-downgrader"> <!--pra deixar mais limitado coloca no-referer-->
+    <!-- allow-same-origin(permitindo->coisas da mesma origem)  allow-form(permitindo->uso de formularios)  allow-scripts(permitindo-> scripts)--> 
+    <iframe src="paginas-extras/pag04.html"sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"> <!--pra deixar mais limitado coloca (no-referrer)-->
         Seu navegador não é compatívelcom isso...
     </iframe>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusamus laboriosam autem nobis? Modi accusantium libero nobis dolore error excepturi similique provident vel ab obcaecati reprehenderit consequatur quibusdam, quas assumenda.</p>
