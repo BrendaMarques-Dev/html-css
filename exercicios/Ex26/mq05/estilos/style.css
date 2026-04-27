@@ -20,7 +20,7 @@ header > h1 {
     text-align: center;
 }
 
-#burguer {
+span#burguer {
     background-color: rgb(48, 47, 47);
     color: white;
     display: block;
@@ -29,7 +29,7 @@ header > h1 {
     cursor: pointer; /* vira uma mãozinha */
 }
 
-#burguer:hover {
+span#burguer:hover {
     background-color: white;
     color: black;
 }
