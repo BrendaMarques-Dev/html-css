@@ -28,9 +28,42 @@ section.flex-content {
     background-color: rgb(156, 156, 156);
 
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
 }
 
-section > article {
-    border: 2px dotted black;
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.media {
+    flex: 1 0 500px;
+    
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+div.text > p {
+    text-indent: 10px;
 }
