@@ -61,7 +61,8 @@ div.media > img {
 div.media > iframe {
     display: block;
     margin: auto;
-    width: 90%;
+    width: 80%;
+    padding: 10px;
 }
 
 div.text > p {
